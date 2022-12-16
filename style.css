@@ -1,0 +1,67 @@
+.box {
+  position: relative;
+  top: -50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  width: 504px;
+  height: 504px;
+  background-color: #d9d9d9;
+  overflow: hidden;
+}
+
+.ellipse {
+  position: absolute;
+  top: 338px;
+  width: 379px;
+  height: 102px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #920fbf;
+  border-radius: 2.4em;
+  z-index: 5;
+}
+
+.rectangle {
+  background-color: #1c3f9a;
+  position: absolute;
+  top: 196px;
+  left: 54px;
+  width: 396px;
+  height: 57px;
+  transform: rotate(47deg);
+  z-index: 3;
+}
+
+.circle {
+  position: absolute;
+  width: 128px;
+  height: 128px;
+  background-color: #0ca565;
+  border-radius: 5em;
+  top: 171px;
+  left: 282px;
+  z-index: 4;
+}
+
+.semicircle {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  background-color: #248456;
+  border-radius: 100%;
+  top: -132px;
+  left: -116px;
+  z-index: 2;
+}
+
+.triangle {
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 0;
+  left: 376px;
+  border: 0 solid transparent;
+  border-top-width: 138px;
+  border-bottom-width: 0px;
+  border-right: 128px solid #ce3607;
+}
